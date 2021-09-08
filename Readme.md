@@ -12,7 +12,9 @@ What we’d like you to do is refactor the code with the following things in mind:
  - Testability
  - Readability
 
-We’d also like you to add some unit tests to the Smartwyre.DeveloperTest.Tests project to show how you would test the code that you’ve produced and run the PaymentService from the Smartwyre.DeveloperTest.Runner console application.
+We’d also like you to 
+ - Add some unit tests to the Smartwyre.DeveloperTest.Tests project to show how you would test the code that you’ve produced 
+ - Run the PaymentService from the Smartwyre.DeveloperTest.Runner console application
 
 The only specific 'rules' are:
 
