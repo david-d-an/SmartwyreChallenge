@@ -15,23 +15,23 @@ namespace Smartwyre.DeveloperTest.Services
 
             switch (request.PaymentScheme)
             {
-                case PaymentScheme.Bacs:
+                case PaymentScheme.BankToBankTransfer:
                     if (account == null)
                     {
                         result.Success = false;
                     }
-                    else if (!account.AllowedPaymentSchemes.HasFlag(AllowedPaymentSchemes.Bacs))
+                    else if (!account.AllowedPaymentSchemes.HasFlag(AllowedPaymentSchemes.BankToBankTransfer))
                     {
                         result.Success = false;
                     }
                     break;
 
-                case PaymentScheme.FasterPayments:
+                case PaymentScheme.ExpeditedPayments:
                     if (account == null)
                     {
                         result.Success = false;
                     }
-                    else if (!account.AllowedPaymentSchemes.HasFlag(AllowedPaymentSchemes.FasterPayments))
+                    else if (!account.AllowedPaymentSchemes.HasFlag(AllowedPaymentSchemes.ExpeditedPayments))
                     {
                         result.Success = false;
                     }
@@ -41,12 +41,12 @@ namespace Smartwyre.DeveloperTest.Services
                     }
                     break;
 
-                case PaymentScheme.Chaps:
+                case PaymentScheme.AutomatedPaymentSystem:
                     if (account == null)
                     {
                         result.Success = false;
                     }
-                    else if (!account.AllowedPaymentSchemes.HasFlag(AllowedPaymentSchemes.Chaps))
+                    else if (!account.AllowedPaymentSchemes.HasFlag(AllowedPaymentSchemes.AutomatedPaymentSystem))
                     {
                         result.Success = false;
                     }

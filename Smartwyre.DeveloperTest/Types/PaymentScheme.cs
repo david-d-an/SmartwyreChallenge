@@ -2,8 +2,8 @@
 {
     public enum PaymentScheme
     {
-        FasterPayments,
-        Bacs,
-        Chaps
+        ExpeditedPayments,
+        BankToBankTransfer,
+        AutomatedPaymentSystem
     }
 }
