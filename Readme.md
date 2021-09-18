@@ -20,6 +20,5 @@ The only specific 'rules' are:
 
 - The solution should build
 - The tests should all pass
-- You should **not** change the method signature of the MakePayment method.
 
 You are free to use any frameworks/NuGet packages that you see fit. You should plan to spend around 1 hour completing the exercise.
