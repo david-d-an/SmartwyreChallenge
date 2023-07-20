@@ -1,3 +1,21 @@
+# Notes for Evaluator
+
+## To run the project
+The service project is added to the Runner poject. Please follow the script below to run it.
+```
+$ cd Smartwyre.DeveloperTest.Runner
+$ dotnet run
+```
+
+## To execute unit tests
+The service project is testable by unit tests. Please follow the script below to run it.
+```
+$ cd Smartwyre.DeveloperTest.Tests
+$ dotnet test
+```
+
+
+
 # Smartwyre Developer Test Instructions
 
 In the 'RebateService.cs' file you will find a method for calculating a rebate. At a high level the steps for calculating a rebate are:
