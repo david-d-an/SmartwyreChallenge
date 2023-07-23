@@ -2,6 +2,16 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label": "generate coverage report",
+            "command": "reportgenerator",
+            "type": "shell",
+            "args": [
+                "-reports:${workspaceFolder}/Smartwyre.DeveloperTest.Tests/TestResults/lcov.info",
+                "-targetdir:${workspaceFolder}/Smartwyre.DeveloperTest.Tests/TestResults/coveragereport"
+            ],
+            "problemMatcher": []
+        },
+        {
             "label": "build",
             "command": "dotnet",
             "type": "process",

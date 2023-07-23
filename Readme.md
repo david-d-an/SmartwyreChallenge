@@ -8,12 +8,21 @@ $ dotnet run
 ```
 
 ## To execute unit tests
+
+Follow instructions [here](https://jasonwatmore.com/net-vs-code-xunit-setup-unit-testing-code-coverage-in-aspnet-core) to set up a general test environment.
+
 The service project is testable by unit tests. Please follow the script below to run it.
 ```
 $ cd Smartwyre.DeveloperTest.Tests
 $ dotnet test
 ```
 
+To generate a coverage report, run `generate coverage report` task.
+```
+ctrl+shift+p > Tasks: Run Task > generate coverage report.
+```
+
+The current Test Coverage should be posted [here](./Smartwyre.DeveloperTest.Tests/TestResults/coveragereport/index.htm). Use a web browser to see the coverage details.
 
 
 # Smartwyre Developer Test Instructions
